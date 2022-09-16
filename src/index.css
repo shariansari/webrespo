@@ -1,0 +1,1093 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+  display: flex;
+  flex-direction: column;
+  background-color:black;
+  
+  
+  height: 95vh;
+  width: 15vw;
+  
+}
+nav a{
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+
+
+}
+ 
+@media screen  and (max-width:1200px) and (min-width:1000px){
+  nav a{
+    
+    font-size: 1rem;
+  
+  }
+}
+@media screen  and (max-width:1000px) and (min-width:500px){
+  nav a{
+    
+    font-size: .8rem;
+    
+  
+  }
+}
+@media screen  and (max-width:500px) and (min-width:200px){
+  nav a{
+    
+    font-size: .3rem;
+    
+  
+  }
+}
+
+
+
+.home{
+  position: absolute;
+  right: 0%;
+  background-color:white;
+  height: 95vh;
+  width: 85vw;
+  top: 0;
+  display: grid;
+  align-items: center;
+
+  
+}
+.About{
+  position: absolute;
+  right: 0%;
+  background-color:white;
+  height: 95vh;
+  width: 85vw;
+  top: 0;
+
+}
+.Service{
+  position: absolute;
+  right: 0%;
+  background-color:white;
+  height: 95vh;
+  width: 85vw;
+  top: 0;
+}
+.Contact{
+  position: absolute;
+  right: 0%;
+  
+  height: 95vh;
+  width: 85vw;
+  top: 0;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:orange;
+
+
+  
+  height: 5vh;
+  
+}
+@media screen and  (max-width:500px){
+  nav a{
+    
+    font-size: 0.5rem;
+  }
+  
+}
+.home img{
+  width: 20%; 
+  display: grid;
+  position: absolute;
+  right: 10%;
+  
+}
+.disc{
+  background-color:white;
+  height: 40vh;
+  width: 55vw;
+  
+  
+}
+@media screen and (max-width:500px) {
+.disc{
+  height: 10vh;
+}
+  
+}
+@media screen and (min-width:500px) and (max-width:950px) {
+  .disc{
+    height: 20vh;
+    width: 40vw;
+    
+  }
+    
+  }
+  .hello{
+    height: 1.5rem;
+    position: relative;
+    left: 10%;
+    width: 50vw;
+    background-color:white;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace
+    
+  }
+
+   @media screen and (max-width:1200px) and (min-width:1000px){
+    .hello{
+       height: 1rem;
+       font-size: 2rem;
+    }
+    
+   }
+   @media screen and (max-width:1000px) and (min-width:500px){
+    .hello{
+      
+       height: .6rem;
+       font-size: 1.2rem;
+       
+    }
+    
+   }
+   @media screen and (max-width:500px) and (min-width:200px){
+    .hello{
+      
+       height: .5rem;
+       font-size: 1rem;
+    }
+    
+   }
+   
+  
+
+  .in{
+    position: relative;
+    left: 10%;
+    height: 4rem;
+    width: 50vw;
+    background-color:white;
+    font-family: cursive;
+    font-size: 1.5rem;
+
+    
+   
+  }
+  
+  @media screen  and (max-width:1200px) and (min-width:1000px){
+    .in{
+      
+      height: 2rem;
+      font-size: 1rem;
+    }
+  }
+  @media screen  and (max-width:1000px) and (min-width:500px){
+    .in{
+      
+      height: 1.5rem;
+      font-size: .6rem;
+      
+    }
+  }
+  @media screen  and (max-width:500px) and (min-width:200px){
+    .in{
+      
+      height: 1rem;
+      font-size: .5rem;
+    }
+  }
+  .shariq{
+    position: relative;
+    left: 10%;
+    height: 3rem;
+    width: 50vw;
+    background-color:white;
+    font-size: 1.5rem;
+  
+    
+
+  }
+  @media screen and (max-width:1200px)  and (min-width:1000px) {
+    .shariq{
+    
+      font-size:1rem;
+      height: 2rem;
+    }
+  }
+  @media screen and (max-width:1000px)  and (min-width:500px) {
+    .shariq{
+    
+      font-size:.6rem;
+      height: 1.5rem;
+  
+    }
+  }
+  @media screen and (max-width:500px)  and (min-width:200px) {
+    .shariq{
+    
+      font-size:.5rem;
+      height: 1rem;
+    }
+  }
+  .subin{
+    position: relative;
+    left: 10%;
+    height: 3rem;
+    background-color:white;
+    font-size: 1rem;
+    width: 50vw;
+  }
+  @media screen and (max-width:1200px) and (min-width:1000px) {
+    .subin{
+      height: 2rem;
+      font-size:.8rem;
+    }
+  }
+  @media screen and (max-width:500px) and (min-width:200px) {
+    .subin{
+      height: 1rem;
+      font-size:.4rem;
+    }
+  }
+  @media screen and (max-width:1000px) and (min-width:500px) {
+    .subin{
+      height: .1rem;
+      font-size:.4rem;
+      
+    };
+  }
+  #cv{
+    
+    
+    margin: 20px;
+    padding: 8px;
+    border-radius: 50px;
+    
+    background-color:black;color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 5%
+    
+  }
+  @media screen  and (max-width:1200px)  and (min-width:1000px) {
+    #cv{
+    
+      
+      margin: 10px;
+      padding: 4PX;
+      border-radius: 30PX;
+      font-size: 8PX;
+      margin-left: 10%;
+      margin-top: 0%;
+
+    }
+  }
+  @media screen  and (max-width:1000px) and (min-width:500px){
+  
+    #cv{
+      
+        
+        
+            
+    margin: 2px;
+    position: relative;
+    top: 20%;
+    padding: 2.5PX;
+    border-radius: 20PX;
+    font-size: 6PX;
+    margin-left: 10%;
+     
+        
+  
+      
+  
+  
+    }
+  }
+  @media screen  and (max-width:500px)  and (min-width:200px) {
+    #cv{
+    
+      
+      margin: 1px;
+      padding: 2PX;
+      border-radius: 15PX;
+      font-size: 4PX;
+      margin-left: 10%;
+      
+    
+
+    }
+  }
+  
+  
+  #con{
+    margin: 20px;
+    padding: 8px;
+    border-radius: 50px;
+    
+    background-color: black;color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    
+    
+  }
+  
+@media screen  and (max-width:1200px) and (min-width:1000px){
+  
+  #con{
+    
+      
+    margin: 10px;
+    padding: 4PX;
+    border-radius: 30PX;
+    font-size: 8PX;
+    
+    margin-top: 0%;
+
+  }
+}
+@media screen  and (max-width:500px) and (min-width:200px){
+  
+  #con{
+    
+      
+      
+    margin: 1px;
+    padding: 2PX;
+    border-radius: 15PX;
+    font-size: 4PX;
+    
+
+
+  }
+}
+@media screen  and (max-width:1000px) and (min-width:500px){
+  
+  #con{
+    
+      
+      
+       
+    margin: 1.5px;
+    padding: 2.5PX;
+    border-radius: 20PX;
+    font-size: 6PX;
+    
+    position: relative;
+    top:20% ;
+    
+
+
+  }
+}
+.introduction{
+  
+  width: 85vw;
+  background-color: black;color: white;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  font-family: 'Kalam', cursive;
+  justify-content: center;
+ 
+}
+@media screen and (max-width:1200px) and (min-width:700px) {
+  .introduction{
+  
+    font-size: 15px;
+    
+    
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .introduction{
+  
+    font-size: 12px;
+    
+  
+    
+    
+  }
+}
+
+@media screen and (max-width:500px) and (min-width:250px) {
+  .introduction{
+  
+    font-size: 8px;
+    
+    
+    
+  }
+}
+
+
+
+.intro p{
+  font-family:'Permanent Marker';
+  margin-left:5PX;
+  font-size: 1rem;
+  
+  margin-top: 0%;
+  display: flex;
+  position: absolute;
+  top: 5vh;
+   
+}
+@media screen and (max-width:1200px) and (min-width:700px) {
+  .intro p{
+  
+    font-size: .6rem;
+    
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .intro p{
+  
+    font-size: .4rem;
+    
+    
+  }
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .intro p{
+  
+    font-size: .26rem;
+    
+    
+  }
+}
+.qual{
+  
+  width: 85vw;
+  background-color:black;color: white;
+  font-family: 'Kalam', cursive; 
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25vh;
+
+  
+}
+@media screen and (max-width:1200px) and (min-width:700px) {
+  .qual{
+    
+    font-size: 15px;
+  
+    
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .qual{
+    
+    font-size: 12px;
+    
+    height: 3vh;
+    
+  }
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .qual{
+  
+    font-size: 8px;
+  
+  
+    
+  }
+}
+.qua p{
+  font-family:'Permanent Marker';
+  margin-left:5PX;
+  font-size: 1rem;
+
+  display: flex;
+  position: absolute;
+  top: 28vh;
+}
+@media screen and (max-width:1200px) and (min-width:700px) {
+  .qua p{
+    
+    font-size: .6rem;
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .qua p{
+    
+    font-size: .4rem;
+  
+  }
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .qua p{
+  
+    font-size: .26rem;
+    
+    
+  }
+}
+.sociality{
+
+  width: 85vw;
+  background-color: black;color: white;
+  display: flex;
+  position: absolute;
+  top: 45vh;
+  font-family: 'Kalam', cursive;
+  justify-content: center;
+ 
+}
+@media screen and (max-width:1200px) and (min-width:700px) {
+  .sociality{
+  
+    font-size: 15px;
+  
+    
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .sociality{
+  
+    font-size: 12px;
+  
+    
+    
+  }
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .sociality{
+  
+    font-size: 8px;
+    
+    
+    
+  }
+}
+
+
+.soc p{
+  font-family:'Permanent Marker';
+  margin-left:5PX;
+  font-size: 1rem;
+  
+  display: flex;
+  position: absolute;
+  top: 48vh;
+}
+@media screen and (max-width:1200px) and (min-width:700px) {
+  .soc p{
+    
+    font-size: .6rem;
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .soc p{
+    
+    font-size: .4rem;
+    
+  }
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .soc p{
+  
+    font-size: .26rem;
+    
+    
+  }
+}
+.Service img{
+height:10rem;
+width: 10rem;
+
+
+float: right;
+
+
+
+
+
+}
+@media screen and (max-width:1250px) and (min-width:1000px) {
+  .box img{
+    height:7.5rem;
+    width:7.5rem;
+  
+  }
+  
+}
+@media screen and (max-width:1000px) and (min-width:700px) {
+  .box img{
+    height:6rem;
+    width:6rem;
+    
+    
+  
+  }
+  
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .box img{
+    height:5rem;
+    width:5rem;
+    
+    
+  
+  }
+  
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .box img{
+    height:3.5rem;
+    width:3.5rem;
+    
+    
+  
+  }
+  
+}
+.react{
+  
+  width: 85vw;
+  color:black;
+  display: flex;
+  text-decoration: underline;
+  
+  position: absolute;
+  top:0;
+  font-family: 'Kalam', cursive;
+  justify-content: center;
+
+  
+}
+@media screen and (max-width:1250px) and (min-width:1000px) {
+  .react{
+font-size:.8rem;
+
+  }
+}
+@media screen and (max-width:1000px) and (min-width:700px) {
+  .react{
+font-size:.6rem;
+
+
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .react{
+font-size:.5rem;
+
+
+  }
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .react{
+font-size:.35rem;
+
+
+  }
+}
+.reac p{
+  font-family:'Permanent Marker';
+  margin-left:5PX;
+  font-size: 1rem;
+  width: 70vw;
+  
+  
+  display: flex;
+  position: absolute;
+  
+  
+   
+}
+@media screen and (max-width:1250px) and (min-width:1000px) {
+  .reac p{
+   font-size: .8rem;
+   
+  }
+}
+@media screen and (max-width:1000px) and (min-width:700px) {
+  .reac p{
+   font-size: .6rem;
+   
+   
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .reac p{
+   font-size: .5rem;
+   
+   
+  }
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .reac p{
+   font-size: .35rem;
+   
+   
+  }
+}
+
+
+.js img{
+  float: left;
+  position: absolute;
+  top: 28%;
+  
+  
+}
+@media screen and (max-width:1250px) and (min-width:1000px) {
+  .js img{
+   height: 120px;
+   width: 120px;
+   
+  }
+}
+@media screen and (max-width:1000px) and (min-width:700px) {
+  .js img{
+   height: 90px;
+   width: 90px;
+   
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .js img{
+   height: 70px;
+   width: 70px;
+   
+  }
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .js img{
+   height: 50px;
+   width: 50px;
+   
+  }
+}
+.js p {
+  font-family:'Permanent Marker';
+  right: 0%;
+  font-size: 1rem;
+  width: 70vw;
+  
+  
+  display: flex;
+  position: absolute;
+  top: 27%;
+  
+  
+  
+}
+@media screen and (max-width:1250px) and (min-width:1000px) {
+  .js p{
+   font-size:0.8rem;
+  }
+}
+@media screen and (max-width:1000px) and (min-width:700px) {
+  .js p{
+   font-size:0.6rem;
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .js p{
+   font-size:0.5rem;
+  }
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .js p{
+   font-size:0.35rem;
+  }
+}
+.jss {
+  width: 85vw;
+  color:black;
+  display: flex;
+  text-decoration: underline;
+  
+  
+  
+  position:absolute;
+  top:25%;
+  font-family: 'Kalam', cursive;
+  justify-content: center;
+}
+@media screen and (max-width:1250px) and (min-width:1000px) {
+  .jss{
+   font-size:.8rem;
+   
+  
+  }
+}
+@media screen and (max-width:1000px) and (min-width:700px) {
+  .jss{
+   font-size:.6rem;
+  
+  
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .jss{
+   font-size:.5rem;
+  
+  
+  }
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .jss{
+   font-size:.35rem;
+  
+  
+  }
+}
+
+.csss{
+  width: 85vw;
+  color:black;
+  display: flex;
+  text-decoration: underline;
+  
+  
+  position:absolute;
+  top:55%;
+  
+  font-family: 'Kalam', cursive;
+  justify-content: center;
+}
+@media screen and (max-width:1250px) and (min-width:1000px) {
+  .csss{
+   font-size:.8rem;
+   
+  }
+}
+@media screen and (max-width:1000px) and (min-width:700px) {
+  .csss{
+   font-size:.6rem;
+   
+   
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .csss{
+   font-size:.5rem;
+   
+   
+  }
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .csss{
+   font-size:.35rem;
+   
+   
+  }
+}
+.css img{
+  position: absolute;
+  top: 58%;
+  right: 0;
+}
+
+.css p{
+  font-family:'Permanent Marker';
+  margin-left: 5px;
+  font-size: 1rem;
+  width: 70vw;
+  
+  
+  display: flex;
+  position: absolute;
+  top: 57%;
+
+  
+  
+}
+
+@media screen and (max-width:1250px) and (min-width:1000px) {
+  .css p{
+   font-size:.8rem;
+   
+  }
+}
+@media screen and (max-width:1000px) and (min-width:700px) {
+  .css p{
+   font-size:.6rem;
+   
+   
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .css p{
+   font-size:.5rem;
+   
+   
+  }
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .css p{
+   font-size:.35rem;
+   
+   
+  }
+}
+@media screen and (max-width:1250px) and (min-width:1000px) {
+  .css img{
+   height: 120px;
+   width: 120px;
+  }
+}
+@media screen and (max-width:1000px) and (min-width:700px) {
+  .css img{
+   height: 90px;
+   width: 90px;
+  }
+}
+@media screen and (max-width:700px) and (min-width:500px) {
+  .css img{
+   height: 70px;
+   width: 70px;
+   
+  }
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+  .css img{
+   height: 50px;
+   width: 50px;
+   
+  }
+}
+#input1 {
+  /* padding: 5px; */
+  
+  
+  width: 60vw;
+  border: 1px solid black;
+  border-radius: 9px;
+  margin: auto;
+  font-size: 1rem;
+
+
+}
+
+#input2 {
+  padding: 5px;
+  margin: 5px;
+  /* width: 348%; */
+  width: 60vw;
+  border: 1px solid black;
+  border-radius: 9px;
+  margin: auto;
+
+
+}
+
+#input3 {
+  padding: 5px;
+  margin: 5px;
+  /* width: 348%; */
+  width: 60vw;
+  border: 1px solid black;
+  border-radius: 9px;
+  margin: auto;
+
+
+}
+
+#input4 {
+  padding: 5px;
+  margin: 5px;
+  /* width: 348%; */
+  width: 60vw;
+  border: 1px solid black;
+  border-radius: 9px;
+  margin: auto;
+
+
+}
+
+#input5 {
+  padding: 5px;
+  margin: 5spx;
+  /* width: 348%; */
+  width: 60vw;
+  border: 1px solid black;
+  border-radius: 9px;
+  margin: auto;
+
+
+}
+
+.box1 {
+
+  display: flex;
+  position: relative;
+  right: 19vh;
+  left: 40vh;
+  width: 50vw;
+  height: 100vh;
+  background-color: white;
+}
+
+#submit {
+
+  margin: 0px;
+  padding: 8px;
+  border-radius: 50px;
+  color: white;
+  background-color: black;color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+#form{
+  position: absolute;
+  right: 15vw;
+}
+h1{
+  
+  font-family:'Permanent Marker';
+  text-align: center;
+  font-size: 1.5rem;
+  
+}
+.active{
+  text-decoration: none;
+  color:orange;
+}
+
+#con{
+  text-decoration: none;
+  color: white;
+}
+#ins{
+  height: 5vh;;
+}
+#fb{
+  height: 5vh;;
+}
+#gmail{
+  height: 5vh;;
+}
+#youtube{
+  height: 5vh;;
+}
+
+
+
+
+
